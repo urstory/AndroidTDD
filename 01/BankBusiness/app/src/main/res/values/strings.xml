@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BankBusiness</string>
+    <string name="hello_world">TDD 실습 - 은행계좌(Account)만들기</string>
+    <string name="action_settings">Settings</string>
+</resources>
