@@ -15,15 +15,11 @@ public class AccountTest extends TestCase {
 
     public void testAccount() throws Exception {
         // Account account = this.account;
-        // setUp();
-
-
         //assertFalse(true);
     }
 
     public void testGetBalance() throws Exception {
         //Account account = new Account( 10000 );
-       setUp();
 
 //        if( account.getBalance() != 10000 ) {
 //            fail();
@@ -45,15 +41,12 @@ public class AccountTest extends TestCase {
 
     public void testDeposit() throws Exception {
         //Account account = new Account( 10000 );
-        setUp();
-
         account.deposit( 1000 );
         assertEquals( "잔고 10000원 통장에 1000원 입금한 결과:", 11000, account.getBalance() );
     }
 
     public void testWithdraw() throws Exception {
         //Account account = new Account( 10000 );
-        setUp();
         account.withdraw( 1000 );
         assertEquals( "잔고 10000원 통장에 1000원 출금한 결과:", 9000, account.getBalance() );
     }
